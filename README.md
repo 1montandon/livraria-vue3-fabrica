@@ -1,35 +1,22 @@
-# .
+## Frontend Livraria Fabrica - Projeto Tutorial Django REST Framework
 
-This template should help get you started developing with Vue 3 in Vite.
+**Este projeto foi criado utilizando o template de vue3 com axios de @marrcandre.**
 
-## Recommended IDE Setup
+### Sobre o Projeto
+O Frontend Livraria Fabrica é uma aplicação web que demonstra a integração entre um frontend construído com Vue 3 e um backend desenvolvido com Django REST Framework.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Recursos / Objetivos:
+* **Desenvolvimento de um frontend com Vue 3:** Criação de componentes para exibir a lista de livros, detalhes de um livro e formulário para adicionar novos livros.
+* **Integração entre frontend e backend:** Consumo das APIs REST do Django usando Vue.js para realizar operações CRUD (criar, ler, atualizar e deletar) nos dados da livraria.
+* **Aprendizado prático:** O projeto serve como um guia passo a passo para quem deseja aprender a construir aplicações web full-stack utilizando Django REST Framework e Vue.js.
 
-## Customize configuration
+### Tecnologias Utilizadas:
+* **Vue.js 3:** Framework JavaScript progressivo para construir interfaces de usuário.
+* **Axios**: O Axios é uma escolha popular para lidar com a comunicação de dados entre o frontend e o backend em aplicações web.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+**Agradecimentos:**
+* A @marrcandre pela criação do excelente tutorial "django-drf-tutorial".
 
-## Project Setup
+**Observações:**
+* Este projeto é baseado em um tutorial e pode não seguir todas as melhores práticas de desenvolvimento.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
